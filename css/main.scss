@@ -89,3 +89,6 @@ div.shortdesc {
 	margin-bottom: 10px;
 }
 
+.simpletable {
+	@extend .table;
+}
