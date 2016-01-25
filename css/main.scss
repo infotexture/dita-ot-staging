@@ -1,6 +1,10 @@
 ---
 ---
 
+// Override default Bootstrap variable definitions
+$code-color: $gray-light; // #777
+$code-bg: transparent;
+
 // Import DITA-OT custom subset of Bootstrap modules
 @import 'bootstrap-custom';
 
