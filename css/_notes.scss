@@ -8,21 +8,19 @@ div.attention {
   margin: 1em;
 
   a {
-    @extend .alert-link;  
+    @extend .alert-link;
   }
 }
 
 // Import alert settings for note variants
 
-// Important = alert alert-warning
-// Tip = alert alert-success
-.note.tip {
-  @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
-}
-
 // Note = alert alert-info
 .note {
   @include alert-variant($alert-info-bg, $alert-info-border, $alert-info-text);
+  // Tip = alert alert-success
+  &.tip {
+    @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
+  }
 }
 
 // Important = alert alert-warning
