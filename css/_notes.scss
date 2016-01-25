@@ -1,9 +1,12 @@
 // Style DITA note elements w/ Bootstrap components
 
 // Apply `.alert` rule from `_alerts.scss`
-div.note, div.important, div.attention {
+div.note,
+div.important,
+div.attention {
   @extend .alert;
   margin: 1em;
+
   a {
     @extend .alert-link;  
   }
@@ -28,7 +31,8 @@ div.note, div.important, div.attention {
 }
 
 // Caution, Warning = alert alert-danger
-.caution, .warning {
+.caution,
+.warning {
   @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
 }
 
