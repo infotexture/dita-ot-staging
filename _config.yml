@@ -7,6 +7,7 @@ baseurl: "/dita-ot.github.io"
 sass:
     style: compressed
     sass_dir: css
+exclude: ["gulpfile.js", "package.js", "node_modules"]
 
 # MAJOR.MINOR
 release: "2.2"
