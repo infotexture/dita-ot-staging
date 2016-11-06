@@ -57,8 +57,9 @@ div.shortdesc {
 .generated {
   color: $kbd-color;
 
-  &:after {
-    content: ' (GENERATED)';
+  &:before {
+    font-variant: small-caps;
+    content: 'Generated: ';
   }
 }
 
