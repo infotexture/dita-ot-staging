@@ -72,12 +72,19 @@ dd {
   margin: 0 0 ($line-height-computed / 2);
 }
 
-// Invert link colors for teaser icon links
-.teaser a {
-  color: $link-hover-color;  // $brand-primary ** Global textual link color.
+// Teaser overrides
+.teaser {
 
-  &:hover,
-  &:focus {
-    color: $link-color;      // lighten($brand-primary, 20%)
+  .glyphicon {
+    font-size: 8em;
+  }
+  // Invert link colors for teaser icon links
+  a {
+    color: $link-hover-color;  // $brand-primary ** Global textual link color.
+
+    &:hover,
+    &:focus {
+      color: $link-color;      // lighten($brand-primary, 20%)
+    }
   }
 }
