@@ -74,8 +74,11 @@ dd {
 }
 
 // Teaser overrides
+.teasers {
+  text-align: center;
+}
+
 .teaser {
-   text-align: center;
 
   .glyphicon {
     font-size: 8em;
