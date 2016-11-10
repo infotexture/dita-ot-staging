@@ -74,6 +74,10 @@ dd {
 }
 
 // Teaser overrides
+.teasers {
+  text-align: center;
+}
+
 .teaser {
 
   .glyphicon {
@@ -88,4 +92,8 @@ dd {
       color: $link-color;      // lighten($brand-primary, 20%)
     }
   }
+}
+
+.finch {
+  margin-top: 3em;
 }
