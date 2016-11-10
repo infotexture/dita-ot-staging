@@ -75,6 +75,7 @@ dd {
 
 // Teaser overrides
 .teaser {
+   text-align: center;
 
   .glyphicon {
     font-size: 8em;
@@ -88,4 +89,8 @@ dd {
       color: $link-color;      // lighten($brand-primary, 20%)
     }
   }
+}
+
+.finch {
+  margin-top: 3em;
 }
