@@ -17,6 +17,11 @@ footer {
 @media screen and (min-width: $screen-sm-min) {
   .navbar-brand {
     padding-left: 0;
+
+    &::before {
+      color: lime;
+      content: '❯❯ ';
+    }
   }
 }
 

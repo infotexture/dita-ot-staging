@@ -30,6 +30,8 @@ $navbar-inverse-link-hover-bg:  darken($navbar-inverse-bg, 5%);
 
 // Inverted navbar brand label        // DITA Open Toolkit home page
 $navbar-inverse-brand-color:    #eee; // match search box background
+$navbar-inverse-brand-hover-color: lime;
+$navbar-inverse-brand-hover-bg: $navbar-inverse-link-hover-bg;
 
 // Color definitions for active navigation items
 $nav-bg:                        lighten($brand-primary, 10%);
