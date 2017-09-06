@@ -22,6 +22,11 @@ footer {
       color: lime;
       content: '❮•❯ ';
     }
+
+    &::after {
+      color: lime;
+      content: ' · Staging ❯❯';
+    }
   }
 }
 
