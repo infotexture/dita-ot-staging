@@ -22,6 +22,7 @@ footer {
 
 .navbar-form {
   padding: 0;
+  height: 34px;
 }
 
 // Fixed w/ https://github.com/dita-ot/dita-ot/pull/2097, remove once all site content has been regenerated thereafter
@@ -80,17 +81,16 @@ dd {
 }
 
 .teaser {
-
   .glyphicon {
     font-size: 8em;
   }
   // Invert link colors for teaser icon links
   a {
-    color: $link-hover-color;  // $brand-primary ** Global textual link color.
+    color: $link-hover-color; // $brand-primary ** Global textual link color.
 
     &:hover,
     &:focus {
-      color: $link-color;      // lighten($brand-primary, 20%)
+      color: $link-color; // lighten($brand-primary, 20%)
     }
   }
 }
