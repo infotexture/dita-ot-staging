@@ -266,6 +266,12 @@ index: "../toc.html"
           the extensions "dita" and "xml" for DITA topics, as mandated by the DITA Specification. Please verify that
           your topics use one of these extensions, or configure the toolkit to allow additional extensions.</td>
       </tr><tr class="strow">
+        <td class="stentry">This message indicates that the
+          <code class="keyword markupname xmlatt">@href</code> value specified in <var class="keyword varname">%1</var> does not use proper URI syntax. This may occur when
+          <code class="keyword markupname xmlatt">@href</code> includes characters that should be escaped (such as the space character, which should be
+          <code class="ph codeph">%20</code> when in a URI). In strict processing mode this will cause a build failure;
+          in other processing modes the build will continue using the value in <var class="keyword varname">%2</var>.</td>
+      </tr><tr class="strow">
         <td class="stentry">A conref "mark" action has been
           used to mark a target element without a corresponding content reference target. This may occur when the order
           of the "mark" element and the pushed element is reversed.</td>
