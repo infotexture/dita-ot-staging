@@ -61,26 +61,29 @@ index: "../toc.html"
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.html.cover</span></dt>
-          <dd class="dd">Overrides the default HTML cover page generation process.</dd>
+          <dd class="dd">Overrides the
+            default HTML cover page generation process.</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.htmltoc</span></dt>
-          <dd class="dd">Overrides
-            the default XSLT step that generates the HTML table of contents (TOC).</dd>
+          <dd class="dd">Overrides the
+            default XSLT step that generates the HTML table of contents (TOC).</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.html5</span></dt>
-          <dd class="dd">Overrides
-            the default HTML5 transformation. The referenced file is integrated directly into the XSLT step that
-            generates HTML5.</dd>
+          <dd class="dd">Overrides the
+            default HTML5 transformation. The referenced file is integrated directly into the XSLT step that generates
+            HTML5.</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.html5.cover</span></dt>
-          <dd class="dd">Overrides the default HTML5 cover page generation process.</dd>
+          <dd class="dd">Overrides the
+            default HTML5 cover page generation process.</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.html5.toc</span></dt>
-          <dd class="dd">Overrides the default XSLT step that generates the HTML5 table of contents (TOC).</dd>
+          <dd class="dd">Overrides the
+            default XSLT step that generates the HTML5 table of contents (TOC).</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.htmlhelp.map2hhc</span></dt>
@@ -93,24 +96,25 @@ index: "../toc.html"
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.troff-ast</span></dt>
-          <dd class="dd">Overrides the intermediate block-and-phrase format that is generated as input to troff processing.</dd>
+          <dd class="dd">Overrides the
+            intermediate block-and-phrase format that is generated as input to troff processing.</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.troff</span></dt>
-          <dd class="dd">Overrides
-            the XSL that converts block-and-phrase intermediate markup into troff.</dd>
+          <dd class="dd">Overrides the XSL
+            that converts block-and-phrase intermediate markup into troff.</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.xhtml</span></dt>
-          <dd class="dd">Overrides
-            the default HTML or XHTML transformation, including HTML Help and Eclipse Help. The referenced file is
+          <dd class="dd">Overrides the
+            default HTML or XHTML transformation, including HTML Help and Eclipse Help. The referenced file is
             integrated directly into the XSLT step that generates XHTML.</dd>
         
         
           <dt class="dt dlterm"><span class="keyword parmname">dita.xsl.xslfo</span></dt>
-          <dd class="dd">Overrides the
-            default PDF transformation. The referenced XSL file is integrated directly into the XSLT step that generates
-            the XSL-FO.</dd>
+          <dd class="dd">Overrides the default
+            PDF transformation. The referenced XSL file is integrated directly into the XSLT step that generates the
+            XSL-FO.</dd>
         
       </dl>
     </section>
@@ -122,18 +126,19 @@ index: "../toc.html"
         banner.</p>
       <figure class="fig fignone"><figcaption><span class="fig--title-label">Figure 1. </span>Contents of the <span class="ph filepath">plugin.xml</span> file</figcaption>
         
-        <pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+        <pre class="pre codeblock normalize-space show-line-numbers show-whitespace"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;plugin id="com.example.brandheader"&gt;
   &lt;feature extension="dita.xsl.xhtml" file="xsl/header.xsl"/&gt;
 &lt;/plugin&gt;</code></pre>
       </figure>
       <figure class="fig fignone"><figcaption><span class="fig--title-label">Figure 2. </span>Contents of the <span class="ph filepath">xsl/header.xsl</span> file</figcaption>
         
-        <pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+        <pre class="pre codeblock normalize-space show-line-numbers show-whitespace"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
   &lt;xsl:template name="gen-user-header"&gt;
     &lt;div&gt;
-      &lt;img src="http://www.example.com/company_banner.jpg" alt="Example Company Banner"/&gt;
+      &lt;img src="http://www.example.com/company_banner.jpg" 
+           alt="Example Company Banner"/&gt;
     &lt;/div&gt;
   &lt;/xsl:template&gt;
 &lt;/xsl:stylesheet&gt;</code></pre>
