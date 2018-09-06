@@ -1,17 +1,24 @@
 title: DITA Open Toolkit
+description: DITA Open Toolkit is an open-source publishing engine for content authored in the Darwin Information Typing Architecture
+url: https://www.dita-ot.org
+baseurl: '/dita-ot-staging'
+
+# https://jekyllrb.com/docs/configuration/options/
 safe: true
 lsi: false
 highlighter: rouge
 markdown: kramdown
-baseurl: "/dita-ot-staging"
+kramdown:
+  input: GFM
+
 sass:
-    style: compressed
-    sass_dir: css
+  style: compressed
+  sass_dir: css
 
 # Major & minor release version (2 digits)
-release: "3.1"
+release: '3.1'
 # Maintenance version (normally 3 digits, 2 for initial minor release)
-version: "3.1.2"
+version: '3.1.2'
 
 # Exclude directories and/or files from the conversion
 exclude:
