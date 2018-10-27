@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Contributing to the DITA Open Toolkit'
+title: 'Contributing to DITA Open Toolkit'
 ---
 
 <p class="lead">You can help us make the toolkit better by finding and reporting bugs, participating in community support, and improving the code and documentation.</p>
@@ -38,7 +38,7 @@ If you'd like to fix a typo or propose changes to an existing topic, you can use
 {% include DCO.md %}
 
 [1]: https://github.com/dita-ot/dita-ot/issues
-[2]: https://github.com/dita-ot/dita-ot/issues/new
+[2]: https://github.com/dita-ot/dita-ot/issues/new/choose
 [3]: https://github.com/dita-ot/docs/issues
 [4]: https://github.com/dita-ot/dita-ot.github.io/issues
 [5]: https://groups.google.com/d/forum/dita-ot-users
